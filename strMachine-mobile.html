@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>String Machine-Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>String Machine</h1>
+        </div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+            <label for="inBox1">Enter a String: </label>
+            <input type="text" name="inBox1" id="inBox1" value="">
+
+            <label for="inBox2">Enter Length: </label>
+            <input style='width:10cm' type="text" name="inBox2" id="inBox2" value="">  
+        <div data-role="controlgroup" data-type="horizontal">
+            <button id="btn1">isVowel1</button>
+            <button id="btn2">isVowel2</button>
+            <button id="btn3">strReveres1</button>
+            <button id="btn4">strReverse2</button>
+            <button id="btn5">getMaxWord</button>
+            <button id="btn6">filterWords</button>
+        </div>         
+            <div id="outDiv"></div>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h5><a href="https://github.com/luominm/hello-world">My Hello World Repo</a></h5>
+        </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="dialog" id="dialog1">
+        <div data-role="header">
+            <h1>isVowel1</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div id="outDiv1"></div>
+        </div>
+        
+        <div data-role="footer">
+            <h3>isVowel1</h3>
+        </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <div data-role="dialog" id="dialog2">
+        <div data-role="header">
+            <h1>isVowel2</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div id="outDiv1"></div>
+        </div>
+        
+        <div data-role="footer">
+            <h3>isVowel2</h3>
+        </div><!-- /footer -->
+        </div><!-- /page -->
+
+    <script src="js/strMachine-mobile.js"></script>
+
+</body>
+</html>

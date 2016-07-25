@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <h1>String Machine</h1>
+        </div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+            <p>Hello world</p>
+        </div><!-- /content -->
+ 
+
+<label for="text-basic">Enter a String: </label>
+<input type="text" name="text-basic" id="text-basic" value="">
+
+<label for="text-basic">Enter Length: </label>
+<input type="text" name="text-basic" id="text-basic" value="">
+
+<div data-role="controlgroup" data-type="horizontal">
+    <button id="bt1" data-role="button">isVowel1</a>
+    <button id="bt2" data-role="button">isVowel2</a>
+    <button id="bt3" data-role="button">strReverse1</a>
+</div>
+
+        <div id="outDiv"></div>
+
+        <div data-role="footer">
+            <h5>Enter a string and click a button</h5>
+        </div><!-- /footer -->
+ 
+    </div><!-- /page -->
+</body>
+</html>
